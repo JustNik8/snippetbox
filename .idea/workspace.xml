@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a29b726-6379-409c-bc6a-560d371e3ef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/models/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/models/mysql/snippets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/templates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/base.layout.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/footer.partial.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/home.page.tmpl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
