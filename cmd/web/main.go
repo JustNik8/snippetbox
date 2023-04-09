@@ -3,6 +3,7 @@ package main
 import (
 	"database/sql"
 	"flag"
+	"justnik.com/snippetbox/pkg/models/mysql"
 	"log"
 	"net/http"
 	"os"
@@ -14,6 +15,7 @@ import (
 type application struct {
 	errorLogger *log.Logger
 	infoLogger  *log.Logger
+	snippets    *mysql.SnippetModel
 }
 
 func main() {
@@ -38,6 +40,7 @@ func main() {
 	app := &application{
 		errorLogger: errorLog,
 		infoLogger:  infoLog,
+		snippets:    &mysql.SnippetModel{DB: db},
 	}
 
 	infoLog.Printf("Запуск веб-сервера на %s\n", *addr)
